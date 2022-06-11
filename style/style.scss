@@ -13,21 +13,88 @@ body {
 
     header {
       grid-column: 2/3;
-      background-color: rgba(251, 252, 215, 1);
-
+      background-color: rgb(175, 175, 175);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
       .container1 {
-
-        .fa-magnifying-glass {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        width: 40%;
+        .child1 {
+          display: flex;
+          align-items: center;
+          gap: 1em;
+          .fa-magnifying-glass {
             font-size: 1.5em;
-            color: rgb(0, 0, 0);
+          }
+
+          input {
+            border: none;
+            border-radius: 1em;
+            width: min(100%, 40em);
+            height: 1.6em;
+          }
         }
 
-        input {
+        .child2 {
+          display: flex;
+          align-items: center;
+          gap: 1em;
+
+          img {
+            width: 4em;
+            border-radius: 50%;
+          }
+
+          h3 {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+          }
+
+          h3::before {
+            content: "Hi there!";
+          }
+        }
+      }
+
+      .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1em;
+        .child1-conitaier2 {
+          display: flex;
+          align-items: center;
+          gap: 1em;
+
+          i {
+            font-size: 1.5em;
+          }
+
+          img {
+            width: 3em;
+            border-radius: 50%;
+          }
+
+          h5 {
+            margin: 0;
+          }
+        }
+
+        .child2-container2 {
+          display: flex;
+          align-items: flex-end;
+          gap: 0.6em;
+          flex-wrap: wrap;
+
+          button {
             border: none;
-            background-color: rgb(235, 235, 235);
-            border-radius: 1em;
-            width: 30em;
-            height: 2em;
+            border-radius: 1.5em;
+            padding: 0.6em 1.8em;
+          }
         }
       }
     }
