@@ -1,5 +1,5 @@
 body {
-  width: 100vw;
+  // width: 100vw;
   display: flex;
   justify-content: center;
 
@@ -7,16 +7,18 @@ body {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
-    width: 100vw;
     max-width: 2000px;
-    height: 100vh;
+    min-height: 100vh;
 
     header {
       grid-column: 2/3;
+
       background-color: rgb(175, 175, 175);
       display: flex;
       justify-content: space-around;
       align-items: center;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
       .container1 {
         display: flex;
         flex-direction: column;
@@ -35,6 +37,7 @@ body {
             border-radius: 1em;
             width: min(100%, 40em);
             height: 1.6em;
+            padding-left: 1em;
           }
         }
 
@@ -68,7 +71,7 @@ body {
         .child1-conitaier2 {
           display: flex;
           align-items: center;
-          gap: 1em;
+          gap: 2em;
 
           i {
             font-size: 1.5em;
@@ -102,11 +105,170 @@ body {
       grid-column: 1/2;
       grid-row: 1/3;
       background-color: rgba(194, 235, 227, 1);
+      padding: 1.7em;
+
+      .icons {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+
+        .child1-icons {
+          display: flex;
+          align-items: center;
+          gap: 0.5em;
+          img {
+            width: 2.5em;
+          }
+          h1 {
+            margin: 0%;
+          }
+        }
+
+        .child2-icons {
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
+
+          h3 {
+            margin: 0;
+          }
+
+          i {
+            font-size: 1.1em;
+          }
+
+          div {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+          }
+        }
+
+        .child3-icons {
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
+
+          h3 {
+            margin: 0;
+          }
+
+          i {
+            font-size: 1.1em;
+          }
+
+          div {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+          }
+        }
+      }
     }
     .main {
       grid-column: 2/3;
       grid-row: 2/3;
       background-color: rgba(195, 236, 189, 1);
+      display: grid;
+      grid-template-columns: 2.5fr 1fr;
+      // grid-template-rows: 2fr;
+      gap: 1%;
+      padding: 2%;
+
+      .child1-main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
+        // grid-template-rows: repeat(auto-fit, 1fr);
+        gap: 1.5%;
+        // height: 100%;
+        .container-component {
+          align-self: center;
+          background-color: aliceblue;
+          height: 100%;
+          display: grid;
+          grid-template-rows: 3fr 1fr;
+          justify-items: center;
+          align-items: center;
+          box-sizing: border-box;
+          padding: 0% 6%;
+
+          .child1 {
+            h3 {
+              margin: 0;
+            }
+
+            p {
+              margin: 0;
+            }
+          }
+          .child2 {
+            justify-self: end;
+            display: flex;
+            gap: 1em;
+            font-size: 1.2em;
+          }
+        }
+      }
+
+      .child2-main {
+        .statment {
+          div {
+            h4 {
+              margin: 0;
+            }
+
+            p {
+              margin: 0;
+            }
+          }
+        }
+
+        .trending {
+          .child1-trending {
+            img {
+              width: 4em;
+              border-radius: 50%;
+            }
+
+            p {
+              margin: 0;
+            }
+          }
+
+          .child2-trending {
+            img {
+              width: 4em;
+              border-radius: 50%;
+            }
+
+            p {
+              margin: 0;
+            }
+          }
+
+          .child3-trending {
+            img {
+              width: 4em;
+              border-radius: 50%;
+            }
+
+            p {
+              margin: 0;
+            }
+          }
+
+          .child4-trending {
+            img {
+              width: 4em;
+              border-radius: 50%;
+            }
+
+            p {
+              margin: 0;
+            }
+          }
+        }
+      }
     }
   }
 }
