@@ -1,1 +1,389 @@
-@import"https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap";body{display:flex;justify-content:center}body .container{display:grid;grid-template-columns:1fr 5fr;grid-template-rows:1fr 6fr;max-width:2000px;min-height:100vh}body .container header{grid-column:2/3;background-color:#fafafa;display:flex;justify-content:space-around;align-items:center;padding-top:.5em;padding-bottom:.5em}body .container header .container1{display:flex;flex-direction:column;gap:1em;width:40%}body .container header .container1 .child1{display:flex;align-items:center;gap:1em}body .container header .container1 .child1 .fa-magnifying-glass{font-size:1.5em;color:#4b5563}body .container header .container1 .child1 input{border:none;border-radius:1em;width:min(100%,40em);height:1.6em;padding-left:1em;background-color:#cbd5e1}body .container header .container1 .child2{display:flex;align-items:center;gap:1em}body .container header .container1 .child2 img{width:4em;border-radius:50%;box-shadow:0px 0px 8px #d1d1d1}body .container header .container1 .child2 h3{margin:0;display:flex;flex-direction:column;color:#4b5563;font-family:"Roboto",sans-serif;font-size:large}body .container header .container1 .child2 h3::before{content:"Hi there!";font-size:small;font-weight:300}body .container header .container2{display:flex;flex-direction:column;align-items:flex-end;gap:1em}body .container header .container2 .child1-conitaier2{display:flex;align-items:center;gap:2em}body .container header .container2 .child1-conitaier2 i{font-size:1.5em;color:#4b5563}body .container header .container2 .child1-conitaier2 img{width:3em;border-radius:50%;box-shadow:0px 0px 8px #d1d1d1}body .container header .container2 .child1-conitaier2 h5{margin:0;color:#4b5563;font-family:"Roboto",sans-serif;font-size:medium;font-weight:400}body .container header .container2 .child2-container2{display:flex;align-items:flex-end;gap:.6em;flex-wrap:wrap}body .container header .container2 .child2-container2 button{border:none;border-radius:1.5em;padding:.6em 1.8em;background-color:#38bdf8;color:#fff;font-family:"Roboto",sans-serif;font-size:medium}body .container .sidebar{grid-column:1/2;grid-row:1/3;background-color:#38bdf8;padding:1.7em}body .container .sidebar .icons{display:flex;flex-direction:column;gap:2em}body .container .sidebar .icons .child1-icons{display:flex;align-items:center;gap:.5em}body .container .sidebar .icons .child1-icons img{width:2.5em}body .container .sidebar .icons .child1-icons h1{margin:0%;color:#fff;font-family:"Roboto",sans-serif;font-size:xx-large;font-weight:700}body .container .sidebar .icons .child2-icons{display:flex;flex-direction:column;gap:1em}body .container .sidebar .icons .child2-icons h3{margin:0;color:#fff;font-family:"Roboto",sans-serif;font-size:large;font-weight:400}body .container .sidebar .icons .child2-icons i{font-size:1.1em;color:#fff}body .container .sidebar .icons .child2-icons div{display:flex;align-items:center;gap:1em}body .container .sidebar .icons .child3-icons{display:flex;flex-direction:column;gap:1em}body .container .sidebar .icons .child3-icons h3{margin:0;color:#fff;font-family:"Roboto",sans-serif;font-size:large;font-weight:400}body .container .sidebar .icons .child3-icons i{font-size:1.1em;color:#fff}body .container .sidebar .icons .child3-icons div{display:flex;align-items:center;gap:1em}body .container .main{grid-column:2/3;grid-row:2/3;background-color:#e2e8f0;display:inline-grid;grid-template-columns:3fr 1fr;grid-template-rows:.3fr 5fr;gap:1%;padding:2%}body .container .main .pragraph1{align-self:center;margin:0;color:#64748b;font-family:"Roboto",sans-serif;font-weight:600}body .container .main .pragraph2{align-self:center;margin:0;color:#64748b;font-family:"Roboto",sans-serif;font-weight:600}body .container .main .child1-main{display:grid;grid-template-columns:repeat(auto-fit, minmax(25em, 1fr));gap:2.5%}body .container .main .child1-main .container-component{align-self:center;background-color:#fafafa;height:100%;width:95%;display:grid;grid-template-rows:2fr 1fr;justify-items:center;align-items:center;box-sizing:border-box;padding:0% 6%;border-radius:.7em;border-left:solid .5em #41d1f6;box-shadow:5px 5px 5px #c2c9d2}body .container .main .child1-main .container-component .child1{justify-self:start;align-self:center}body .container .main .child1-main .container-component .child1 h3{margin:.5em 0em;color:#1e293b;font-family:"Roboto",sans-serif;font-size:large;font-weight:600}body .container .main .child1-main .container-component .child1 p{margin:0;color:#64748b;font-family:"Roboto",sans-serif;font-size:smaller;font-weight:400}body .container .main .child1-main .container-component .child2{align-self:center;justify-self:end;display:flex;gap:1em;font-size:1.2em;color:#4b5563}body .container .main .child2-main{display:grid;grid-template-rows:1fr .1fr 1fr;gap:2%}body .container .main .child2-main .statment{grid-row:1/2;background-color:#fafafa;height:100%;display:flex;flex-direction:column;justify-content:space-evenly;gap:2%;box-sizing:border-box;padding:2em 2em 2em 2em;border-radius:1em;box-shadow:5px 5px 5px #c2c9d2}body .container .main .child2-main .statment .solid{border:solid 1px #ddd;border-radius:1em}body .container .main .child2-main .statment div{display:flex;flex-direction:column;gap:.2em}body .container .main .child2-main .statment div h4{margin:0;color:#1e293b;font-family:"Roboto",sans-serif;font-size:smaller;font-weight:600}body .container .main .child2-main .statment div p{margin:0;color:#1e293b;font-family:"Roboto",sans-serif;font-size:small;font-weight:200}body .container .main .child2-main .h2{grid-row:2/3;margin:0;color:#64748b;font-family:"Roboto",sans-serif;font-weight:600}body .container .main .child2-main .trending{grid-row:3/4;height:100%;background-color:#fafafa;display:flex;flex-direction:column;justify-content:space-evenly;box-sizing:border-box;padding:1em;gap:4%;border-radius:1em;box-shadow:5px 5px 5px #c2c9d2}body .container .main .child2-main .trending .child{display:flex;align-items:center;gap:2%}body .container .main .child2-main .trending .child img{box-shadow:0px 0px 8px #d1d1d1}body .container .main .child2-main .trending .child p{font-family:"Roboto",sans-serif;font-size:smaller}body .container .main .child2-main .trending .child1-trending img{width:3em;border-radius:50%}body .container .main .child2-main .trending .child1-trending p{margin:0;color:#64748b;font-weight:300;font-size:x-small}body .container .main .child2-main .trending .child1-trending p::before{display:flex;content:"@john";color:#1e293b;font-weight:400;font-size:small}body .container .main .child2-main .trending .child2-trending img{width:3em;border-radius:50%;color:#1e293b}body .container .main .child2-main .trending .child2-trending p{margin:0;color:#64748b;font-weight:300;font-size:x-small}body .container .main .child2-main .trending .child2-trending p::before{display:flex;content:"@amir";color:#1e293b;font-weight:400;font-size:small}body .container .main .child2-main .trending .child3-trending img{width:3em;border-radius:50%}body .container .main .child2-main .trending .child3-trending p{margin:0;color:#64748b;font-weight:300;font-size:x-small}body .container .main .child2-main .trending .child3-trending p::before{display:flex;content:"@arash";color:#1e293b;font-weight:400;font-size:small}body .container .main .child2-main .trending .child4-trending img{width:3em;border-radius:50%}body .container .main .child2-main .trending .child4-trending p{margin:0;color:#64748b;font-weight:300;font-size:x-small}body .container .main .child2-main .trending .child4-trending p::before{display:flex;content:"@kandle";color:#1e293b;font-weight:400;font-size:small}/*# sourceMappingURL=style.css.map */
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap";
+body {
+  display: flex;
+  justify-content: center;
+}
+body .container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 6fr;
+  max-width: 2000px;
+  min-height: 100vh;
+}
+body .container header {
+  grid-column: 2/3;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+body .container header .container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 40%;
+}
+body .container header .container1 .child1 {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+body .container header .container1 .child1 .fa-magnifying-glass {
+  font-size: 1.5em;
+  color: #4b5563;
+}
+body .container header .container1 .child1 input {
+  border: none;
+  border-radius: 1em;
+  width: min(100%, 40em);
+  height: 1.6em;
+  padding-left: 1em;
+  background-color: #cbd5e1;
+}
+body .container header .container1 .child2 {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+body .container header .container1 .child2 img {
+  width: 4em;
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px #d1d1d1;
+}
+body .container header .container1 .child2 h3 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  color: #4b5563;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+}
+body .container header .container1 .child2 h3::before {
+  content: "Hi there!";
+  font-size: small;
+  font-weight: 300;
+}
+body .container header .container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1em;
+}
+body .container header .container2 .child1-conitaier2 {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+body .container header .container2 .child1-conitaier2 i {
+  font-size: 1.5em;
+  color: #4b5563;
+}
+body .container header .container2 .child1-conitaier2 img {
+  width: 3em;
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px #d1d1d1;
+}
+body .container header .container2 .child1-conitaier2 h5 {
+  margin: 0;
+  color: #4b5563;
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  font-weight: 400;
+}
+body .container header .container2 .child2-container2 {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.6em;
+  flex-wrap: wrap;
+}
+body .container header .container2 .child2-container2 button {
+  border: none;
+  border-radius: 1.5em;
+  padding: 0.6em 1.8em;
+  background-color: #38bdf8;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+body .container .sidebar {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background-color: #38bdf8;
+  padding: 1.7em;
+}
+body .container .sidebar .icons {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+body .container .sidebar .icons .child1-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+body .container .sidebar .icons .child1-icons img {
+  width: 2.5em;
+}
+body .container .sidebar .icons .child1-icons h1 {
+  margin: 0%;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: xx-large;
+  font-weight: 700;
+}
+body .container .sidebar .icons .child2-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+body .container .sidebar .icons .child2-icons h3 {
+  margin: 0;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  font-weight: 400;
+}
+body .container .sidebar .icons .child2-icons i {
+  font-size: 1.1em;
+  color: #fff;
+}
+body .container .sidebar .icons .child2-icons div {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+body .container .sidebar .icons .child3-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+body .container .sidebar .icons .child3-icons h3 {
+  margin: 0;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  font-weight: 400;
+}
+body .container .sidebar .icons .child3-icons i {
+  font-size: 1.1em;
+  color: #fff;
+}
+body .container .sidebar .icons .child3-icons div {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+body .container .main {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: #e2e8f0;
+  display: inline-grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 0.3fr 5fr;
+  gap: 1%;
+  padding: 2%;
+}
+body .container .main .pragraph1 {
+  align-self: center;
+  margin: 0;
+  color: #64748b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+body .container .main .pragraph2 {
+  align-self: center;
+  margin: 0;
+  color: #64748b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+body .container .main .child1-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+  gap: 2.5%;
+}
+body .container .main .child1-main .container-component {
+  align-self: center;
+  background-color: #fafafa;
+  height: 100%;
+  width: 95%;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0% 6%;
+  border-radius: 0.7em;
+  border-left: solid 0.5em #41d1f6;
+  box-shadow: 5px 5px 5px #c2c9d2;
+}
+body .container .main .child1-main .container-component .child1 {
+  justify-self: start;
+  align-self: center;
+}
+body .container .main .child1-main .container-component .child1 h3 {
+  margin: 0.5em 0em;
+  color: #1e293b;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  font-weight: 600;
+}
+body .container .main .child1-main .container-component .child1 p {
+  margin: 0;
+  color: #64748b;
+  font-family: "Roboto", sans-serif;
+  font-size: smaller;
+  font-weight: 400;
+}
+body .container .main .child1-main .container-component .child2 {
+  align-self: center;
+  justify-self: end;
+  display: flex;
+  gap: 1em;
+  font-size: 1.2em;
+  color: #4b5563;
+}
+body .container .main .child2-main {
+  display: grid;
+  grid-template-rows: 1fr 0.1fr 1fr;
+  gap: 2%;
+}
+body .container .main .child2-main .statment {
+  grid-row: 1/2;
+  background-color: #fafafa;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 2%;
+  box-sizing: border-box;
+  padding: 2em 2em 2em 2em;
+  border-radius: 1em;
+  box-shadow: 5px 5px 5px #c2c9d2;
+}
+body .container .main .child2-main .statment .solid {
+  border: solid 1px #ddd;
+  border-radius: 1em;
+}
+body .container .main .child2-main .statment div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+body .container .main .child2-main .statment div h4 {
+  margin: 0;
+  color: #1e293b;
+  font-family: "Roboto", sans-serif;
+  font-size: smaller;
+  font-weight: 600;
+}
+body .container .main .child2-main .statment div p {
+  margin: 0;
+  color: #1e293b;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  font-weight: 200;
+}
+body .container .main .child2-main .h2 {
+  grid-row: 2/3;
+  margin: 0;
+  color: #64748b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+body .container .main .child2-main .trending {
+  grid-row: 3/4;
+  height: 100%;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 1em;
+  gap: 4%;
+  border-radius: 1em;
+  box-shadow: 5px 5px 5px #c2c9d2;
+}
+body .container .main .child2-main .trending .child {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+body .container .main .child2-main .trending .child img {
+  box-shadow: 0px 0px 8px #d1d1d1;
+}
+body .container .main .child2-main .trending .child p {
+  font-family: "Roboto", sans-serif;
+  font-size: smaller;
+}
+body .container .main .child2-main .trending .child1-trending img {
+  width: 3em;
+  border-radius: 50%;
+}
+body .container .main .child2-main .trending .child1-trending p {
+  margin: 0;
+  color: #64748b;
+  font-weight: 300;
+  font-size: x-small;
+}
+body .container .main .child2-main .trending .child1-trending p::before {
+  display: flex;
+  content: "@john";
+  color: #1e293b;
+  font-weight: 400;
+  font-size: small;
+}
+body .container .main .child2-main .trending .child2-trending img {
+  width: 3em;
+  border-radius: 50%;
+  color: #1e293b;
+}
+body .container .main .child2-main .trending .child2-trending p {
+  margin: 0;
+  color: #64748b;
+  font-weight: 300;
+  font-size: x-small;
+}
+body .container .main .child2-main .trending .child2-trending p::before {
+  display: flex;
+  content: "@amir";
+  color: #1e293b;
+  font-weight: 400;
+  font-size: small;
+}
+body .container .main .child2-main .trending .child3-trending img {
+  width: 3em;
+  border-radius: 50%;
+}
+body .container .main .child2-main .trending .child3-trending p {
+  margin: 0;
+  color: #64748b;
+  font-weight: 300;
+  font-size: x-small;
+}
+body .container .main .child2-main .trending .child3-trending p::before {
+  display: flex;
+  content: "@arash";
+  color: #1e293b;
+  font-weight: 400;
+  font-size: small;
+}
+body .container .main .child2-main .trending .child4-trending img {
+  width: 3em;
+  border-radius: 50%;
+}
+body .container .main .child2-main .trending .child4-trending p {
+  margin: 0;
+  color: #64748b;
+  font-weight: 300;
+  font-size: x-small;
+}
+body .container .main .child2-main .trending .child4-trending p::before {
+  display: flex;
+  content: "@kandle";
+  color: #1e293b;
+  font-weight: 400;
+  font-size: small;
+} /*# sourceMappingURL=style.css.map */
